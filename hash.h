@@ -1,5 +1,8 @@
-#ifndef _HASH_C_
-#define _HASH_C_
+//Author: Sean Feigis
+//Date: Nov 5, 2020
+//Header File for hash.c
+#ifndef _HASH_H_
+#define _HASH_H_
 
 struct HashTable
 {
@@ -24,4 +27,8 @@ void addElement( struct Performance *performance, struct HashTable *table, void 
 int getIdx( struct Performance *performance, struct HashTable *table, void *src);
 void freeTable( struct Performance *performance, struct HashTable *table);
 void *getElement( struct Performance *performance, struct HashTable *table, void *src);
+void removeElement( struct Performance *performance, struct HashTable *table, void *target);
+int hashAccuracy( struct HashTable *table);
+void rehash( struct HashTable *table);
+
 #endif

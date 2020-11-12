@@ -1,0 +1,56 @@
+Found hash.c
+Compiling
+Found hash.o
+Compilation succeeded
+Compiling and linking gradeA5_newPerformance
+Found gradeA5_newPerformance
+Compilation succeeded
+newPerformance passed
+Compiling and linking gradeA5_createTable
+Found gradeA5_createTable
+Compilation succeeded
+createTable passed
+Compiling and linking gradeA5_addElement
+Found gradeA5_addElement
+Compilation succeeded
+addElement passed
+addElement passed
+addElement passed
+Compiling and linking gradeA5_getIdx
+Found gradeA5_getIdx
+Compilation succeeded
+getIdx passed
+getIdx passed
+getIdx passed
+getIdx passed
+Compiling and linking gradeA5_getElement
+Found gradeA5_getElement
+Compilation succeeded
+getElement passed
+Compiling and linking gradeA5_removeElement
+Found gradeA5_removeElement
+Compilation succeeded
+removeElement failed
+  '3-13:1:0-0\n'!='3-11:1:0-0\n'
+Compiling and linking gradeA5_freeTable
+Found gradeA5_freeTable
+Compilation succeeded
+freeTable passed
+Compiling and linking gradeA5_hashAccuracy
+Found gradeA5_hashAccuracy
+Compilation succeeded
+hashAccuracy failed
+  'valid:1:0-112-96\n'!='valid:1:0-116-96\n'
+hashAccuracy failed
+  'valid:1:0-116-99\n'!='valid:1:0-120-99\n'
+Compiling and linking gradeA5_rehash
+Found gradeA5_rehash
+Compilation succeeded
+rehash failed
+  'valid:1:0-unimproved\n'!='valid:1:0-improved\n'
+rehash passed
+Found makefile
+Correct options
+Comments
+Indentation levels are: ['', '  ', '    ', '      ', '        ', '          ', '            ']
+Assignment submitted by socs <socs@socsvm.local> at: Tue Nov 3 20:51:58 2020
